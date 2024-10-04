@@ -32,14 +32,18 @@ print("|   |   |")
 print("|   |   |")
 print("|   |   |")
 
-print("The quick brown fox".lower())
+#print("The quick brown fox".lower())
 
-print("the quick BROWN fox".capitalize())
+#print("the quick BROWN fox".capitalize())
 
-print("the quick brown fox".count())
+#print("the quick brown fox".count())
 
-print("the quick brown fox".find())
+#print("the quick brown fox".find())
 
-print("the quick brown fox".replace())
+#print("the quick brown fox".replace())
 
-print("the quick brown fox".strip())
+#print("the quick brown fox".strip())
+#ctrl+/ Command for making lines 'comments'
+
+print("All Around The World"[7].upper())
+
