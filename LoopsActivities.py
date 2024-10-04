@@ -8,11 +8,11 @@
 #     count += 1
 # ------------------------------------------------
 #Activity 2 - Nested for loop, multiplication table from 1 to 12
-# for i in range(1,13):                          # Outer loop for numbers 1 to 12 
-#     print(f"Multiplication Table for {i}:")
-#     for j in range(1,13):                      # Inner loop for multiplying by 1 to 12
-#         print(f"{i} x {j} = {i * j}")             
-#     print("------")                              # print a  line after each table
+for i in range(1,13):                          # Outer loop for numbers 1 to 12 
+    print(f"Multiplication Table for {i}:")
+    for j in range(1,13):                      # Inner loop for multiplying by 1 to 12
+        print(f"{i} x {j} = {i * j}")             
+    print("------")                              # print a  line after each table
 # ------------------------------------------------
 #Activity 3 - log-in program that asks a user to enter a password to continue. The user cannot continue until they get the password correct.
 #Set correct password
